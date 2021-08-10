@@ -1,10 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body{
+    background-color: #F0F0F0;
+}
+
 .container{
     background-color: aqua;
-    width: 800px;
+    width: 70%;
     height: 500px;
+    font-family: karla;
+    margin: 20% auto ;
+
 }
+
 .container-community{
-    background-color: rgb(16, 190, 88);
+    background-color:#FFFFFF;
     width: 100%;
-    height: 45%;
+    height: 50%;
+    padding: 10px 0 0 5%;
+}
+
+.titleCommunity{
+    color:#4EA5A1;
+    font-weight: 700;
+}
+
+.subtitleCommunity{
+    color: #C0CB7F;
+    font-weight: 600;
+}
+
+.container-community p{
+    color:#C3C7CA;
+    font-weight: 700px;
+    font-size: 16px;
+
+}
+
+.containersubscription{
+background-color: #2BB3B1;
+width: 50%;
+height: 50%;
+padding-top: 10px;
+}
+
+.numbersubscription{
+    font-size: 20px;
+    color: #B2FEFC;
+
+}
+
+.numbersubscription strong{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.buttonsubscription {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonsubscription button{
+    width: 70%;
+    height: 50px;
+    background: #BFDF32;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/*.numbersubscription{
+    color: #B2FEFC;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+
+.monthsubscription{
+    color: #B2FEFC;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.buttonsubscription{
+    background-color: #BFDF32;
+    width: 40%;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color:#B2FEFC ;
+    
+
+
+}
+
+.accesssubscription{
+    color: white ;
+    margin-left: 40px;
+    margin-top: -100px;
+    font-weight: 300;
+    font-size: 20px;}*/
+
+
+.containerwhyus{
+    background-color: #4ABEBD;
+    width: 50%;
+    height: 50%;
+    /*margin-left: 660px;*/
+    /*margin-top:-287px*/
+}
+
+.titlewhyus{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.textwhy{
+    color: white;
+    margin-left: 50px;
 }
